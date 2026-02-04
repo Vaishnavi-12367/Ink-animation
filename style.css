@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+}
+.banner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fcfcfc;
+    position: relative;
+}
+.banner1 .content1 .title1 {
+    font-family: 'Hallowed Grounds';
+    font-size: 9em;
+}
+.banner1::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(anime-girl-dream-happy-girl-moon-crescent-moon-girly-3840x2160-8360.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    
+    mask-image: url(ink_lv2.gif);
+    mask-size: 100%; 
+    mask-repeat: no-repeat;
+    mask-position: center;
+
+}
+
+.banner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgba(148, 56, 33, 0.895);
+    border: #a733ad;
+    position: relative;
+}
+.banner2 .content2 .title2 {
+    font-family: 'Hallowed Grounds';
+    font-size: 9em;
+}
+.banner2::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(alone-girl-silhouette-mood-planet-dream-2900x4060-1139.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+
+    mask-image: url(ink_lv2.gif);
+    mask-size: cover;
+    mask-position: center;
+}
